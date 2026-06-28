@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR1f0003/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1f0003/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 古文孝經孔氏傳
+  date: '2015-08-24 22:17:57.748105'
+  source:
+    repository: kanripo
+    path: KR1f0003
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1f0003_000-WYG.yaml, hash: 'sha256:a828a0cba2845b71cec9dfc36710439d8daf893f4906b17972236fe6c5d609f0'}
+  - {seq: 1, filename: KR1f0003_001-WYG.yaml, hash: 'sha256:89fba23cbbccff9a14e6e6b509b3d2804b877c5b294633a5d2de52b25c722287'}
+  - {seq: 2, filename: KR1f0003_002-WYG.yaml, hash: 'sha256:ed31fed4ba65c6e98a7ff4f73ecd17495be8da7a3d2bb80bcad3c0e51affd82a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1f0003_000-WYG.markers.yaml, hash: 'sha256:640f2f262c5d0ae52e2b34fab084089b99dca584f422de41e569ab7ad72ea248'}
+  - {seq: 1, role: markers, filename: assets/KR1f0003_001-WYG.markers.yaml, hash: 'sha256:18509c53108cc85899b03c9dff88c4da42dc3ad2e4ace4b13b9f56a0a5929a8a'}
+  - {seq: 2, role: markers, filename: assets/KR1f0003_002-WYG.markers.yaml, hash: 'sha256:62bceb5727205d6d2f9c71848028a8c0127a8fe4171ea8adf2c35d4db1d5a77e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1f0003_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 3202
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1f0003_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 12435
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1f0003_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 1816
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:ce91f7dc70c47b0b257c15f999b936ae52360c20cfe459c59103290f386a71b1
