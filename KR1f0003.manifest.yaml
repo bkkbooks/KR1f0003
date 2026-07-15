@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR1f0003/v1
 canonical_location: https://kanripo.org/bkk/KR1f0003/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 古文孝經孔氏傳
   date: '2015-08-24 22:17:57.748105'
@@ -20,13 +20,13 @@ editions:
   label: 【四庫全書・文淵閣】
 assets:
   parts:
-  - {seq: 0, filename: KR1f0003_000.yaml, hash: 'sha256:0a4957a75627e3cfd273148c8482a8e327aacadac1f2f9906e55dfcfdb39b3bb'}
-  - {seq: 1, filename: KR1f0003_001.yaml, hash: 'sha256:1df1522def91397673e8bf40fbf2c64fb8751408fc4b473ab0d453d4f6e8c36a'}
-  - {seq: 2, filename: KR1f0003_002.yaml, hash: 'sha256:f22d1de6544736829e5300b55203823dc031f0db5813fb8783e6891d995355d2'}
+  - {seq: 0, filename: KR1f0003_000.yaml, hash: 'sha256:3b65de7542d055ec1f6f02a7a42af4b4bbca8ae566cdd4d71007c23eeb52df49'}
+  - {seq: 1, filename: KR1f0003_001.yaml, hash: 'sha256:57b18db4529198bf66839c1b32427890dd113d78e308ea3d05fcda2253904693'}
+  - {seq: 2, filename: KR1f0003_002.yaml, hash: 'sha256:69f769da906dfedb17573c597f5bfc380e863d9dc046eef605b5df9024fdaec6'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR1f0003_000.markers.yaml, hash: 'sha256:fda3c83856271cf8d0380206d973fc6d873073b940dcb763c18e534b0462ecf5'}
-  - {seq: 1, role: markers, filename: assets/KR1f0003_001.markers.yaml, hash: 'sha256:a4b89cd4552c526ed5e553237e347cfdeb76860523467eaa8ab21b7bf5aedc61'}
-  - {seq: 2, role: markers, filename: assets/KR1f0003_002.markers.yaml, hash: 'sha256:fac060f225f3a9f847a0c1dcb415bcd36d198f1652c511b514248ba17fe04566'}
+  - {seq: 0, role: markers, filename: assets/KR1f0003_000.markers.yaml, hash: 'sha256:43070500c58444c8dda31d505e5a1b21d8ac807027dd8ae9a4d31e9b1c1fce17'}
+  - {seq: 1, role: markers, filename: assets/KR1f0003_001.markers.yaml, hash: 'sha256:3e060f7c9ac9f15d931caf0db411a10663f81d05eafddce04a9b0d180a4460f7'}
+  - {seq: 2, role: markers, filename: assets/KR1f0003_002.markers.yaml, hash: 'sha256:dcc04212a3ac8f696c3ab6ce471b99e9336338ca12ba92cf5dc6865baec6a8d9'}
 table_of_contents:
 - ref:
     seq: 0
@@ -78,4 +78,7 @@ table_of_contents:
   label: 古文孝經
   type: section
   level: 1
-hash: sha256:44efc768189fb5c122b489918476cccda51f36180ff8781a67413af836d49b86
+hash: sha256:c86f7c78bfd878cddc5c1ca01f4a8286335bbedf4a81aadd57b78350c21e5191
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
